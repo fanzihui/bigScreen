@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit">
+    <meta name="copyright" content="rltx.com" />
+    <title>亿阳蒙西物流园区欢迎您</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <script src="jquery-1.9.1.min.js" ></script>
+
+    <style>
+		/*--reset--*/
+	    body, div, p, h1, h2, h3, h4, h5, h6, hr, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {margin:0; padding:0; }
+		body, button, input, select, textarea {font:normal 16px/1.25  "\5b8b\4f53", Tahoma, Helvetica, Arial, sans-serif;}
+		table {border-collapse:collapse; border-spacing:0;}
+		address, caption, cite, code, dfn, em, strong, th, var {font-style:normal; font-weight:normal;}
+		a {text-decoration:none; outline: none; color:#666;}
+		a:hover {text-decoration:underline; }
+		fieldset, img {border:0; }
+		ul, ol {list-style:none; }
+		.fl {float:left; display:inline;}
+		.fr {float:right; display:inline;}
+		.hide {display:none !important;}
+		.block {display:block !important;}
+		.clearfix:after {visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0; }
+		.clearfix {*zoom:1;}
+		/*--large screen--*/
+		body { background-color:#000; color:#f00; }
+		.border { border:solid 1px #ffa500; }
+		.cyan { color:#0ff; }
+		.yellow { color:#ff0; }
+		.large-screen { width:786px; height:304px; padding:2px; margin:3px 0 0 3px; overflow:hidden; border-width:2px; }
+		.ls-hd h1,.data h2 { font-size:16px; text-align:center; }
+		.data { width:390px; height:250px; margin:2px 0; overflow:hidden; border:solid 1px #ffa500; }
+		.data h2 { border-bottom:solid 1px #ffa500; }
+		.ls-table { width:100%; table-layout:fixed; /* font-size:12px; */  }
+		.ls-table caption { font-weight:bold; }
+		.ls-table thead { color:#f4a460; border-bottom:solid 1px #ffa500; }
+		.ls-table th,.ls-table td { text-align:center; padding:2px; }
+		.ls-table .left { text-align:left; }
+		.data-scroll { position:relative; margin:10px 0; height:184px; overflow:hidden; }
+		.data-scroll .ls-table { position: absolute; top: 0; left: 0; }
+		.ls-ft { padding:0 10px; }
+    </style>
+</head>
+
+<body>
+    <!-- S:LARGE SCREEN -->
+    <div class="large-screen border">
+    	<!-- head -->
+    	<div class="ls-hd border">
+    		<h1>亿阳蒙西物流园区欢迎您</h1>
+    	</div>
+    	<!-- body -->
+    	<div class="ls-bd clearfix">
+    		<!-- left -->
+    		<div class="data fl">
+    			<h2>货 源 信 息</h2>
+    			<table class="ls-table">
+    				<thead>
+    					<tr>
+    						<th width="20%" class="left">出发地</th>
+    						<th width="20%" class="left">目的地</th>
+    						<th width="20%">货物</th>
+    						<th width="20%">车数</th>
+    						<th width="20%">运价</th>
+    					</tr>
+    				</thead>
+    			</table>
+    			<div class="data-scroll" id="data1">
+    				<table class="ls-table">
+	    				<tbody class="tbody_1">
+	    				</tbody>
+	    				<tbody class="tbody_2">
+	    				</tbody>
+	    			</table>
+    			</div>
+    		</div>
+    		<!-- right -->
+    		<div class="data fr">
+    			<h2>车 源 信 息</h2>
+    			<table class="ls-table">
+    				<thead>
+    					<tr>
+    						<th width="20%" class="left">出发地</th>
+    						<th width="20%" class="left">目的地</th>
+    						<th width="20%">车牌号</th>
+    						<th width="20%">载重(吨)</th>
+    						<th width="20%">发布方</th>
+    					</tr>
+    				</thead>
+    			</table>
+    			<div class="data-scroll" id="data2">
+    				<table class="ls-table">
+	    				<tbody class="tbody_1">
+	    				</tbody>
+	    				<tbody class="tbody_2">
+	    				</tbody>
+	    			</table>
+    			</div>
+    		</div>
+    	</div>
+    	<!-- foot -->
+        <div id="output"></div>
+    	<div class="ls-ft border">
+    		<marquee behavior="scroll" direction="left" scrolldelay="300">业务联系电话 0473-3121666 400-664-1151</marquee>
+    	</div>
+    </div>
+    <!-- E:LARGE SCREEN -->
+
+    <!-- S:SCRIPT -->
+    <script>
+        $(document).ready(function() {
+				function setData() {
+					$.ajax({
+						method: 'GET',
+						type: 'json',
+						url: '/getInfo/',
+						async: true,
+						success: function(data) {
+							var left_data = data.left_info;
+							var right_data = data.right_info;
+							var d1 = $('#data1 .ls-table .tbody_1');
+							var d2 = $('#data2 .ls-table .tbody_1');
+							// console.log(left_data.length);
+							// console.log(left_data);
+
+							var str_left = "";
+							var str_right = "";
+
+							for (var i = 0, l = left_data.length; i < l; i++) {
+								str_left += (
+									'<tr>' +
+									'<td class="left">' + left_data[i].depart_add + '</td>' +
+									'<td class="left">' + left_data[i].arrive_add + '</td>' +
+									'<td><span class="cyan">' + left_data[i].goods_name + '</span></td>' +
+									'<td><span class="yellow">' + left_data[i].car_num + '</span></td>' +
+									'<td>' + left_data[i].driver_price + '</td>' +
+									'</tr>'
+								);
+							}
+							d1.html(str_left);
+
+							for (var i = 0, l = right_data.length; i < l; i++) {
+								str_right += (
+									'<tr>' +
+									'<td class="left">' + right_data[i].depart_add + '</td>' +
+									'<td class="left">' + right_data[i].arrive_add + '</td>' +
+									'<td><span class="cyan">' + right_data[i].truckLicense_no + '</span></td>' +
+									'<td><span class="yellow">' + right_data[i].netweight + '</span></td>' +
+									'<td>' + right_data[i].fbf + '</td>' +
+									'</tr>'
+								);
+							}
+							d2.html(str_right);
+							checkHeight(str_left, str_right);
+							dataUp();
+						}
+					})
+				}
+				var a = 0;
+				var start = 0;
+				var start1 = 0;
+
+				function checkHeight(str_left, str_right) {
+					var tr1 = $('#data1 .ls-table .tbody_1 tr');
+					var tr2 = $('#data2 .ls-table .tbody_1 tr');
+					var l1 = tr1.length,
+						l2 = tr2.length,
+						i,
+						aHeight1 = 0,
+						aHeight2 = 0,
+						dHeight = document.querySelector('#data1').clientHeight;
+					for (i = 0; i < l1; i++) {
+						aHeight1 += tr1[i].offsetHeight;
+					}
+					for (i = 0; i < l2; i++) {
+						aHeight2 += tr2[i].offsetHeight;
+					}
+					if (aHeight1 >= dHeight) {
+						$('#data1 .ls-table .tbody_2').html(str_left);
+					}
+					if (aHeight2 >= dHeight) {
+						$('#data2 .ls-table .tbody_2').html(str_right);
+					}
+				}
+
+				function dataUp() {
+					// console.log(a++);
+					var tr1 = $('#data1 .ls-table .tbody_1 tr');
+					var t1 = $('#data1 .ls-table');
+					var tr2 = $('#data2 .ls-table .tbody_1 tr');
+					var t2 = $('#data2 .ls-table');
+					var l1 = tr1.length,
+						l2 = tr2.length,
+						i,
+						aHeight1 = 0,
+						aHeight2 = 0,
+						dHeight = document.querySelector('#data1').clientHeight;
+					for (i = 0; i < l1; i++) {
+						aHeight1 += tr1[i].offsetHeight;
+					}
+					for (i = 0; i < l2; i++) {
+						aHeight2 += tr2[i].offsetHeight;
+					}
+					// console.log(aHeight1)
+
+					function maq(h, d, t) {
+						// console.log(start);
+						if (h < d) {
+							return false;
+						} else if (start <= -h * 2 + d) {
+							start = -h + d;
+							t.css('top', start + 'px')
+						} else {
+							start--;
+							t.css('top', start + 'px')
+						}
+					}
+					maq(aHeight1, dHeight, t1);
+
+					function maq1(h, d, t) {
+						// console.log(start1);
+						if (h < d) {
+							return false;
+						} else if (start1 <= -h * 2 + d) {
+							start1 = -h + d;
+							t.css('top', start1 + 'px')
+						} else {
+							start1--;
+							t.css('top', start1 + 'px')
+						}
+					}
+					maq1(aHeight2, dHeight, t2)
+				}
+				setInterval(dataUp, 50);
+				setData();
+				setInterval(setData, 10000);
+
+
+        })
+    </script>
+    <!-- E:SCRIPT -->
+</body>
+
+</html>
