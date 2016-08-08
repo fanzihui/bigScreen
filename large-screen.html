@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="renderer" content="webkit">
     <meta name="copyright" content="rltx.com" />
-    <title>亿阳蒙西物流园区欢迎您</title>
+    <title>巨屏显示</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <script src="jquery-1.9.1.min.js" ></script>
@@ -51,7 +51,7 @@
     <div class="large-screen border">
     	<!-- head -->
     	<div class="ls-hd border">
-    		<h1>亿阳蒙西物流园区欢迎您</h1>
+    		<h1>XX物流园区欢迎您</h1>
     	</div>
     	<!-- body -->
     	<div class="ls-bd clearfix">
@@ -112,137 +112,127 @@
 
     <!-- S:SCRIPT -->
     <script>
-        $(document).ready(function() {
-				function setData() {
-					$.ajax({
-						method: 'GET',
-						type: 'json',
-						url: '/getInfo/',
-						async: true,
-						success: function(data) {
-							var left_data = data.left_info;
-							var right_data = data.right_info;
-							var d1 = $('#data1 .ls-table .tbody_1');
-							var d2 = $('#data2 .ls-table .tbody_1');
-							// console.log(left_data.length);
-							// console.log(left_data);
+		function setData() {
+			$.ajax({
+				method: 'GET',
+				type: 'json',
+				url: './getInfo.json',
+				async: true,
+				success: function(data) {
+					var left_data = data.left_info;
+					var right_data = data.right_info;
+					var d1 = $('#data1 .ls-table .tbody_1');
+					var d2 = $('#data2 .ls-table .tbody_1');
+					// console.log(left_data.length);
+					// console.log(left_data);
 
-							var str_left = "";
-							var str_right = "";
+					var str_left = "";
+					var str_right = "";
 
-							for (var i = 0, l = left_data.length; i < l; i++) {
-								str_left += (
-									'<tr>' +
-									'<td class="left">' + left_data[i].depart_add + '</td>' +
-									'<td class="left">' + left_data[i].arrive_add + '</td>' +
-									'<td><span class="cyan">' + left_data[i].goods_name + '</span></td>' +
-									'<td><span class="yellow">' + left_data[i].car_num + '</span></td>' +
-									'<td>' + left_data[i].driver_price + '</td>' +
-									'</tr>'
-								);
-							}
-							d1.html(str_left);
+					for (var i = 0, l = left_data.length; i < l; i++) {
+						str_left += (
+								'<tr>' +
+								'<td class="left">' + left_data[i].depart_add + '</td>' +
+								'<td class="left">' + left_data[i].arrive_add + '</td>' +
+								'<td><span class="cyan">' + left_data[i].goods_name + '</span></td>' +
+								'<td><span class="yellow">' + left_data[i].car_num + '</span></td>' +
+								'<td>' + left_data[i].driver_price + '</td>' +
+								'</tr>'
+						);
+					}
+					d1.html(str_left);
 
-							for (var i = 0, l = right_data.length; i < l; i++) {
-								str_right += (
-									'<tr>' +
-									'<td class="left">' + right_data[i].depart_add + '</td>' +
-									'<td class="left">' + right_data[i].arrive_add + '</td>' +
-									'<td><span class="cyan">' + right_data[i].truckLicense_no + '</span></td>' +
-									'<td><span class="yellow">' + right_data[i].netweight + '</span></td>' +
-									'<td>' + right_data[i].fbf + '</td>' +
-									'</tr>'
-								);
-							}
-							d2.html(str_right);
-							checkHeight(str_left, str_right);
-							dataUp();
-						}
-					})
+					for (var i = 0, l = right_data.length; i < l; i++) {
+						str_right += (
+								'<tr>' +
+								'<td class="left">' + right_data[i].depart_add + '</td>' +
+								'<td class="left">' + right_data[i].arrive_add + '</td>' +
+								'<td><span class="cyan">' + right_data[i].truckLicense_no + '</span></td>' +
+								'<td><span class="yellow">' + right_data[i].netweight + '</span></td>' +
+								'<td>' + right_data[i].fbf + '</td>' +
+								'</tr>'
+						);
+					}
+					d2.html(str_right);
+					common();
+					checkHeight(str_left, str_right);
+					dataUp();
 				}
-				var a = 0;
-				var start = 0;
-				var start1 = 0;
+			})
+		}
 
-				function checkHeight(str_left, str_right) {
-					var tr1 = $('#data1 .ls-table .tbody_1 tr');
-					var tr2 = $('#data2 .ls-table .tbody_1 tr');
-					var l1 = tr1.length,
-						l2 = tr2.length,
-						i,
-						aHeight1 = 0,
-						aHeight2 = 0,
-						dHeight = document.querySelector('#data1').clientHeight;
-					for (i = 0; i < l1; i++) {
-						aHeight1 += tr1[i].offsetHeight;
-					}
-					for (i = 0; i < l2; i++) {
-						aHeight2 += tr2[i].offsetHeight;
-					}
-					if (aHeight1 >= dHeight) {
-						$('#data1 .ls-table .tbody_2').html(str_left);
-					}
-					if (aHeight2 >= dHeight) {
-						$('#data2 .ls-table .tbody_2').html(str_right);
-					}
+
+		function common(){
+			var tr1 = $('#data1 .ls-table .tbody_1 tr');
+			var tr2 = $('#data2 .ls-table .tbody_1 tr');
+			var l1 = tr1.length,
+					l2 = tr2.length,
+					i,
+					aHeight1 = 0,
+					aHeight2 = 0,
+					dHeight = document.querySelector('#data1').clientHeight;
+			for (i = 0; i < l1; i++) {
+				aHeight1 += tr1[i].offsetHeight;
+			}
+			for (i = 0; i < l2; i++) {
+				aHeight2 += tr2[i].offsetHeight;
+			}
+			return {
+				aHeight1: aHeight1,
+				aHeight2: aHeight2,
+				dHeight : dHeight
+			}
+		}
+
+		function checkHeight(str_left, str_right) {
+			if (this.common().aHeight1 >= this.common().dHeight) {
+				$('#data1 .ls-table .tbody_2').html(str_left);
+			}
+			if ( this.common().aHeight2 >=  this.common().dHeight) {
+				$('#data2 .ls-table .tbody_2').html(str_right);
+			}
+		}
+
+		var start = 0;
+		var start1 = 0;
+		function dataUp() {
+			var t1 = $('#data1 .ls-table');
+			var t2 = $('#data2 .ls-table');
+			function maq(h, d, t) {
+				// console.log(start);
+				if (h < d) {
+					return false;
+				} else if (start <= -h * 2 + d) {
+					start = -h + d;
+					t.css('top', start + 'px')
+				} else {
+					start--;
+					t.css('top', start + 'px')
 				}
+			}
+			maq(this.common().aHeight1, this.common().dHeight, t1);
 
-				function dataUp() {
-					// console.log(a++);
-					var tr1 = $('#data1 .ls-table .tbody_1 tr');
-					var t1 = $('#data1 .ls-table');
-					var tr2 = $('#data2 .ls-table .tbody_1 tr');
-					var t2 = $('#data2 .ls-table');
-					var l1 = tr1.length,
-						l2 = tr2.length,
-						i,
-						aHeight1 = 0,
-						aHeight2 = 0,
-						dHeight = document.querySelector('#data1').clientHeight;
-					for (i = 0; i < l1; i++) {
-						aHeight1 += tr1[i].offsetHeight;
-					}
-					for (i = 0; i < l2; i++) {
-						aHeight2 += tr2[i].offsetHeight;
-					}
-					// console.log(aHeight1)
-
-					function maq(h, d, t) {
-						// console.log(start);
-						if (h < d) {
-							return false;
-						} else if (start <= -h * 2 + d) {
-							start = -h + d;
-							t.css('top', start + 'px')
-						} else {
-							start--;
-							t.css('top', start + 'px')
-						}
-					}
-					maq(aHeight1, dHeight, t1);
-
-					function maq1(h, d, t) {
-						// console.log(start1);
-						if (h < d) {
-							return false;
-						} else if (start1 <= -h * 2 + d) {
-							start1 = -h + d;
-							t.css('top', start1 + 'px')
-						} else {
-							start1--;
-							t.css('top', start1 + 'px')
-						}
-					}
-					maq1(aHeight2, dHeight, t2)
+			function maq1(h, d, t) {
+				// console.log(start1);
+				if (h < d) {
+					return false;
+				} else if (start1 <= -h * 2 + d) {
+					start1 = -h + d;
+					t.css('top', start1 + 'px')
+				} else {
+					start1--;
+					t.css('top', start1 + 'px')
 				}
-				setInterval(dataUp, 50);
-				setData();
-				setInterval(setData, 10000);
-
-
-        })
+			}
+			maq1(this.common().aHeight2, this.common().dHeight, t2)
+		}
+		setInterval(dataUp, 50);
+		setData();
+		setInterval(setData, 10000);
     </script>
     <!-- E:SCRIPT -->
 </body>
 
 </html>
+
+

@@ -1,0 +1,874 @@
+{
+  "left_info": [
+    {
+      "arrive_add": "\u6d25\u897f\u4e07\u901a", 
+      "car_num": 12, 
+      "depart_add": "\u661f\u5149\u96c6\u56e2", 
+      "driver_price": null, 
+      "goods_name": "\u751f\u94c1"
+    }, 
+    {
+      "arrive_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "car_num": 50, 
+      "depart_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "driver_price": "219", 
+      "goods_name": "\u7cbe\u7164"
+    }, 
+    {
+      "arrive_add": "\u65b0\u534e", 
+      "car_num": 17, 
+      "depart_add": "\u6c47\u80fd", 
+      "driver_price": "80", 
+      "goods_name": "\u9762\u7164"
+    }, 
+    {
+      "arrive_add": "\u9738\u5dde", 
+      "car_num": 1, 
+      "depart_add": "\u8499\u897f", 
+      "driver_price": "205", 
+      "goods_name": "\u7845\u94c1"
+    }, 
+    {
+      "arrive_add": "\u4e4c\u8fbe\u541b\u6b63", 
+      "car_num": 22, 
+      "depart_add": "\u540e\u5927\u4e95\u6c9f\u673a\u5236", 
+      "driver_price": "105", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u4ebf\u901a\u2014\u53cc\u6b23", 
+      "car_num": 2, 
+      "depart_add": "\u4ebf\u901a\u2014\u53cc\u6b23", 
+      "driver_price": "85", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u4e50\u4ead\u5fb7\u9f99\u7845\u9530", 
+      "car_num": 3, 
+      "depart_add": "\u897f\u91d1\u77ff\u51b6", 
+      "driver_price": "250", 
+      "goods_name": "\u7845\u9530"
+    }, 
+    {
+      "arrive_add": "\u79e6\u7687\u5c9b\u9996\u94a2", 
+      "car_num": 11, 
+      "depart_add": "\u6d77\u5357\u897f\u90e8", 
+      "driver_price": "250", 
+      "goods_name": "\u7126\u70ad"
+    }, 
+    {
+      "arrive_add": "\u5929\u6d25\u5357\u73af", 
+      "car_num": 17, 
+      "depart_add": "\u795e\u534e\uff08\u8499\u897f\uff09", 
+      "driver_price": "215", 
+      "goods_name": "\u7126\u70ad"
+    }, 
+    {
+      "arrive_add": "\u5f00\u5e73\u5510\u94f6\u7845\u94c1", 
+      "car_num": 2, 
+      "depart_add": "\u897f\u91d1\u77ff\u51b6", 
+      "driver_price": "230", 
+      "goods_name": "\u7845\u9530"
+    }, 
+    {
+      "arrive_add": "\u8fc1\u5b89\u71d5\u94a2", 
+      "car_num": 7, 
+      "depart_add": "\u8499\u897f\u541b\u6b63", 
+      "driver_price": "220", 
+      "goods_name": "\u7845\u94c1"
+    }, 
+    {
+      "arrive_add": "\u4e30\u5357\u745e\u4e30", 
+      "car_num": 2, 
+      "depart_add": "\u897f\u91d1\u77ff\u51b6", 
+      "driver_price": "230", 
+      "goods_name": "\u7845\u9530"
+    }, 
+    {
+      "arrive_add": "\u8fc1\u5b89\u4e5d\u6c5f", 
+      "car_num": 221, 
+      "depart_add": "\u68cb\u7126\u5316\u4e09\u5206\u5382", 
+      "driver_price": "235", 
+      "goods_name": "\u7cbe\u7164"
+    }, 
+    {
+      "arrive_add": "EJM", 
+      "car_num": 370, 
+      "depart_add": "\u5929\u6d25\u6e2f", 
+      "driver_price": "130", 
+      "goods_name": "\u5357\u975e\u7c7d\u77ff"
+    }, 
+    {
+      "arrive_add": "\u5929\u6d25\u5b8f\u4fe1", 
+      "car_num": 2, 
+      "depart_add": "\u897f\u91d1\u77ff\u51b6", 
+      "driver_price": "220", 
+      "goods_name": "\u7845\u94c1"
+    }, 
+    {
+      "arrive_add": "\u5510\u5c71\u5e02\u5fb7\u9f99\u94a2\u94c1", 
+      "car_num": 3, 
+      "depart_add": "\u897f\u91d1\u77ff\u51b6", 
+      "driver_price": "245", 
+      "goods_name": "\u7845\u94c1"
+    }, 
+    {
+      "arrive_add": "\u5510\u5c71\u71d5\u94a2\u7845\u9530", 
+      "car_num": 5, 
+      "depart_add": "\u897f\u91d1\u77ff\u51b6", 
+      "driver_price": "240", 
+      "goods_name": "\u7845\u9530"
+    }, 
+    {
+      "arrive_add": "\u6d25\u897f\u94a2\u94c1\u7845\u9530", 
+      "car_num": 1, 
+      "depart_add": "\u897f\u91d1\u77ff\u51b6", 
+      "driver_price": "220", 
+      "goods_name": "\u7845\u9530"
+    }, 
+    {
+      "arrive_add": "\u9075\u5316\u5efa\u9f99", 
+      "car_num": 1, 
+      "depart_add": "\u897f\u91d1\u77ff\u51b6", 
+      "driver_price": "220", 
+      "goods_name": "\u7845\u9530"
+    }, 
+    {
+      "arrive_add": "\u5f00\u5e73\u5510\u94f6", 
+      "car_num": 2, 
+      "depart_add": "\u897f\u91d1\u77ff\u51b6", 
+      "driver_price": "220", 
+      "goods_name": "\u7845\u9530"
+    }, 
+    {
+      "arrive_add": "\u4e4c\u8fbe\u541b\u6b63\u2014\u5e7f\u5dde\u9ec4\u57d4", 
+      "car_num": 11, 
+      "depart_add": "\u4e4c\u8fbe\u541b\u6b63\u2014\u5e7f\u5dde\u9ec4\u57d4", 
+      "driver_price": "490", 
+      "goods_name": "\u7845\u94c1"
+    }, 
+    {
+      "arrive_add": "\u68cb\u7126\u5316\u4e09\u5206\u5382\u2014\u2014\u4e30\u5357\u8fbe\u4e30", 
+      "car_num": 229, 
+      "depart_add": "\u68cb\u7126\u5316\u4e09\u5206\u5382\u2014\u2014\u4e30\u5357\u8fbe\u4e30", 
+      "driver_price": "220", 
+      "goods_name": "\u7cbe\u7164"
+    }, 
+    {
+      "arrive_add": "\u5fb7\u4fe1\u4f73", 
+      "car_num": 2, 
+      "depart_add": "\u534e\u4fe1", 
+      "driver_price": "200", 
+      "goods_name": "\u7126\u70ad"
+    }, 
+    {
+      "arrive_add": "\u745e\u4e30", 
+      "car_num": 10, 
+      "depart_add": "\u7ea2\u7f28", 
+      "driver_price": "230", 
+      "goods_name": "0.8\u786b\u673a\u7126\u4e8c\u7ea7\u7126"
+    }, 
+    {
+      "arrive_add": "\u7965\u8363\u2014\u53cc\u6b23", 
+      "car_num": 33, 
+      "depart_add": "\u7965\u8363\u2014\u53cc\u6b23", 
+      "driver_price": "85", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u5927\u6b66\u53e3\u7535\u5382", 
+      "car_num": 233, 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "driver_price": "35", 
+      "goods_name": "\u4e2d\u7164"
+    }, 
+    {
+      "arrive_add": "\u66f9\u5983\u7538\u9996\u94a2", 
+      "car_num": 3, 
+      "depart_add": "\u897f\u91d1\u77ff\u51b6", 
+      "driver_price": "245", 
+      "goods_name": "75\u7845\u94c1"
+    }, 
+    {
+      "arrive_add": "\u8fc1\u5b89\u4e5d\u6c5f\u7ebf\u6750", 
+      "car_num": 3, 
+      "depart_add": "\u897f\u91d1\u77ff\u51b6", 
+      "driver_price": "240", 
+      "goods_name": "\u7845\u94c1"
+    }, 
+    {
+      "arrive_add": "\u5b81\u6761\u5854\u8054\u4f17\u2014\u4e4c\u8fbe\u541b\u6b63", 
+      "car_num": 6, 
+      "depart_add": "\u5b81\u6761\u5854\u8054\u4f17\u2014\u4e4c\u8fbe\u541b\u6b63", 
+      "driver_price": "85", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u897f\u91d1\u77ff\u51b6", 
+      "car_num": 57, 
+      "depart_add": "\u660e\u661f\u77ff\u4e1a", 
+      "driver_price": "75", 
+      "goods_name": "\u7845\u77f3"
+    }, 
+    {
+      "arrive_add": "\u4f0a\u65d7", 
+      "car_num": 14, 
+      "depart_add": "\u8499\u897f\u541b\u6b63", 
+      "driver_price": "65", 
+      "goods_name": "\u7845\u94c1"
+    }, 
+    {
+      "arrive_add": "\u6ee6\u5357\u534e\u897f", 
+      "car_num": 2, 
+      "depart_add": "\u897f\u91d1\u77ff\u51b6", 
+      "driver_price": "240", 
+      "goods_name": "\u7845\u94c1"
+    }, 
+    {
+      "arrive_add": "\u95fb\u559c", 
+      "car_num": 3, 
+      "depart_add": "\u4e4c\u8fbe\u541b\u6b63", 
+      "driver_price": "165", 
+      "goods_name": "\u7845\u94c1"
+    }, 
+    {
+      "arrive_add": "\u592a\u94a2", 
+      "car_num": 14, 
+      "depart_add": "\u8499\u897f\u541b\u6b63", 
+      "driver_price": "160", 
+      "goods_name": "\u7845\u94c1"
+    }, 
+    {
+      "arrive_add": "\u4e30\u5357\u4e1c\u534e", 
+      "car_num": 9, 
+      "depart_add": "\u8499\u897f\u541b\u6b63", 
+      "driver_price": "220", 
+      "goods_name": "\u7845\u94c1"
+    }, 
+    {
+      "arrive_add": "\u5510\u5c71\u66f9\u5983\u7538", 
+      "car_num": 3, 
+      "depart_add": "\u8499\u897f\u541b\u6b63", 
+      "driver_price": "220", 
+      "goods_name": "\u7845\u94c1"
+    }, 
+    {
+      "arrive_add": "\u4e4c\u8fbe", 
+      "car_num": 62, 
+      "depart_add": "\u8fdc\u5927", 
+      "driver_price": "100", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u8499\u897f\u9762\u7164", 
+      "car_num": 52, 
+      "depart_add": "\u7965\u8363", 
+      "driver_price": "80", 
+      "goods_name": "\u9762\u7164"
+    }, 
+    {
+      "arrive_add": "\u6d25\u897f\u94a2\u5382", 
+      "car_num": 193, 
+      "depart_add": "\u5e7f\u7eb3\u7ea2\u7f28", 
+      "driver_price": "220", 
+      "goods_name": "0.8\u786b\u673a\u7126\u4e00\u7ea7\u7126"
+    }, 
+    {
+      "arrive_add": "\u94f6\u5ddd", 
+      "car_num": 2, 
+      "depart_add": "\u8499\u897f", 
+      "driver_price": "100", 
+      "goods_name": "\u9ad8\u5cad\u571f"
+    }, 
+    {
+      "arrive_add": "\u8499\u897f\u9762\u7164", 
+      "car_num": 9, 
+      "depart_add": "\u7965\u8363", 
+      "driver_price": "75", 
+      "goods_name": "\u7845\u94c1"
+    }, 
+    {
+      "arrive_add": "\u5b5d\u4e49\uff08\u7845\u94c1\uff09", 
+      "car_num": 5, 
+      "depart_add": "\u4e4c\u8fbe\u541b\u6b63", 
+      "driver_price": "115", 
+      "goods_name": "\u7845\u94c1"
+    }, 
+    {
+      "arrive_add": "\u8499\u897f", 
+      "car_num": 286, 
+      "depart_add": "\u8fdc\u5927", 
+      "driver_price": "105", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u4e4c\u8fbe", 
+      "car_num": 41, 
+      "depart_add": "\u5174\u65fa\u6e90", 
+      "driver_price": "86", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u5510\u5c71\u745e\u4e30", 
+      "car_num": 9, 
+      "depart_add": "\u897f\u91d1\u77ff\u51b6", 
+      "driver_price": "230", 
+      "goods_name": "\u7845\u94c1"
+    }, 
+    {
+      "arrive_add": "\u5929\u6d25\u5609\u5bb8", 
+      "car_num": 93, 
+      "depart_add": "\u9ec4\u6cb3\u4f17\u5229", 
+      "driver_price": "185", 
+      "goods_name": "\u7126\u70ad"
+    }, 
+    {
+      "arrive_add": "\u5510\u5c71\u8fbe\u4e30\u7126\u5316", 
+      "car_num": 213, 
+      "depart_add": "\u68cb\u7126\u5316\u4e09\u5206\u5382", 
+      "driver_price": "205", 
+      "goods_name": "\u7cbe\u7164"
+    }, 
+    {
+      "arrive_add": "\u8499\u897f\u541b\u6b63", 
+      "car_num": 153, 
+      "depart_add": "\u5174\u65fa\u6e90", 
+      "driver_price": "85", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u4e4c\u8fbe\u541b\u6b63", 
+      "car_num": 135, 
+      "depart_add": "\u4e07\u6e90", 
+      "driver_price": "105", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u795e\u6728", 
+      "car_num": 10, 
+      "depart_add": "\u8499\u897f\u541b\u6b63", 
+      "driver_price": "65", 
+      "goods_name": "\u7845\u94c1"
+    }, 
+    {
+      "arrive_add": "\u53cc\u6b23", 
+      "car_num": 31, 
+      "depart_add": "\u521b\u6e90", 
+      "driver_price": "85", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u53cc\u6b23", 
+      "car_num": 241, 
+      "depart_add": "\u5fb7\u6da6", 
+      "driver_price": "85", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u53cc\u6b23", 
+      "car_num": 36, 
+      "depart_add": "\u4e1c\u83b1", 
+      "driver_price": "95", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u53cc\u6b23", 
+      "car_num": 63, 
+      "depart_add": "\u6d69\u6cc9", 
+      "driver_price": "85", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u6d25\u897f\u94a2\u5382", 
+      "car_num": 361, 
+      "depart_add": "\u5e7f\u7eb3\u7126\u5316\uff08\u8499\u897f\uff09", 
+      "driver_price": "225", 
+      "goods_name": "\u7126\u70ad"
+    }, 
+    {
+      "arrive_add": "\u53cc\u6b23", 
+      "car_num": 97, 
+      "depart_add": "\u6052\u6da6", 
+      "driver_price": "85", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u4f70\u5de5", 
+      "car_num": 41, 
+      "depart_add": "\u5e7f\u7eb3\u7ea2\u7f28", 
+      "driver_price": "210", 
+      "goods_name": "\u7126\u70ad"
+    }, 
+    {
+      "arrive_add": "\u53cc\u6b23", 
+      "car_num": 177, 
+      "depart_add": "\u6052\u5347", 
+      "driver_price": "85", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u53cc\u6b23", 
+      "car_num": 81, 
+      "depart_add": "\u6052\u5347\u4e00\u5382", 
+      "driver_price": "85", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u53cc\u6b23", 
+      "car_num": 55, 
+      "depart_add": "\u6c47\u80fd", 
+      "driver_price": "85", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u53cc\u6b23", 
+      "car_num": 280, 
+      "depart_add": "\u8054\u4f17", 
+      "driver_price": "85", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u53cc\u6b23", 
+      "car_num": 61, 
+      "depart_add": "\u745e\u5fb7", 
+      "driver_price": "85", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u53cc\u6b23", 
+      "car_num": 56, 
+      "depart_add": "\u6cf0\u548c", 
+      "driver_price": "85", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u53cc\u6b23", 
+      "car_num": 39, 
+      "depart_add": "\u817e\u8fdc\u5206\u5382", 
+      "driver_price": "85", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u9102\u5c14\u591a\u65af\u65b0\u534e\u6c34\u6ce5", 
+      "car_num": 57, 
+      "depart_add": "\u56fd\u7535\u5efa\u6295", 
+      "driver_price": "80", 
+      "goods_name": "\u9762\u7164"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "car_num": 613, 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "driver_price": "26", 
+      "goods_name": "\u4e2d\u7164"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u7535\u5382", 
+      "car_num": 811, 
+      "depart_add": "\u795e\u534e400\u4e07\u5428\uff08\u5b81\u590f\uff09", 
+      "driver_price": "27", 
+      "goods_name": "\u4e2d\u7164"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u7535\u5382", 
+      "car_num": 926, 
+      "depart_add": "\u68cb\u76d8\u4e95", 
+      "driver_price": "20", 
+      "goods_name": "\u4e2d\u7164"
+    }, 
+    {
+      "arrive_add": "\u6cb3\u5317\u5b89\u4e30\u94a2\u94c1", 
+      "car_num": 11, 
+      "depart_add": "\u897f\u91d1\u77ff\u51b6", 
+      "driver_price": "240", 
+      "goods_name": "\u7845\u94c1"
+    }, 
+    {
+      "arrive_add": "\u8499\u897f\u541b\u6b63", 
+      "car_num": 268, 
+      "depart_add": "\u7965\u8363", 
+      "driver_price": "81", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u4e4c\u8fbe\u541b\u6b63", 
+      "car_num": 137, 
+      "depart_add": "\u7965\u8363", 
+      "driver_price": "85", 
+      "goods_name": "\u5170\u70ad"
+    }, 
+    {
+      "arrive_add": "\u4e30\u6da6\u65b0\u5b9d\u6cf0", 
+      "car_num": 601, 
+      "depart_add": "\u6e90\u901a\u7126\u5316", 
+      "driver_price": "210", 
+      "goods_name": "\u7126\u70ad"
+    }, 
+    {
+      "arrive_add": "\u4e30\u5357\u745e\u4e30", 
+      "car_num": 458, 
+      "depart_add": "\u5e7f\u7eb3\u7126\u5316(\u8499\u897f\uff09", 
+      "driver_price": "210", 
+      "goods_name": "\u7126\u70ad"
+    }, 
+    {
+      "arrive_add": "\u4e1c\u6d77", 
+      "car_num": 1162, 
+      "depart_add": "\u795e\u534e", 
+      "driver_price": "230", 
+      "goods_name": "\u7126\u70ad"
+    }
+  ], 
+  "right_info": [
+    {
+      "arrive_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "depart_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "39", 
+      "truckLicense_no": "\u5180BY6208"
+    }, 
+    {
+      "arrive_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "depart_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "39", 
+      "truckLicense_no": "\u5180BZ6536"
+    }, 
+    {
+      "arrive_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "depart_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "39", 
+      "truckLicense_no": "\u6d25AR3709"
+    }, 
+    {
+      "arrive_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "depart_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "40", 
+      "truckLicense_no": "\u6d25AZ3022"
+    }, 
+    {
+      "arrive_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "depart_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "40", 
+      "truckLicense_no": "\u6d25AZ3855"
+    }, 
+    {
+      "arrive_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "depart_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "40", 
+      "truckLicense_no": "\u6d25AY2961"
+    }, 
+    {
+      "arrive_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "depart_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "40", 
+      "truckLicense_no": "\u6d25AX8513"
+    }, 
+    {
+      "arrive_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "depart_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "40", 
+      "truckLicense_no": "\u5180B6751C"
+    }, 
+    {
+      "arrive_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "depart_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "40", 
+      "truckLicense_no": "\u6d25AZ0961"
+    }, 
+    {
+      "arrive_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "depart_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "41", 
+      "truckLicense_no": "\u6d25AZ0269"
+    }, 
+    {
+      "arrive_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "depart_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "40", 
+      "truckLicense_no": "\u6d25AZ2776"
+    }, 
+    {
+      "arrive_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "depart_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "41", 
+      "truckLicense_no": "\u6d25AZ6130"
+    }, 
+    {
+      "arrive_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "depart_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "40", 
+      "truckLicense_no": "\u5180BY8689"
+    }, 
+    {
+      "arrive_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "depart_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "40", 
+      "truckLicense_no": "\u5180BX8037"
+    }, 
+    {
+      "arrive_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "depart_add": "\u5929\u8a89\u2014\u2014\u6e2f\u9646", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "40", 
+      "truckLicense_no": "\u5180BX8598"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "100", 
+      "truckLicense_no": "\u8499A54806"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "91", 
+      "truckLicense_no": "\u8499K82202"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "101", 
+      "truckLicense_no": "\u8499B72855"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "95", 
+      "truckLicense_no": "\u8499K63683"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "94", 
+      "truckLicense_no": "\u8499A52645"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "93", 
+      "truckLicense_no": "\u8499A42457"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "96", 
+      "truckLicense_no": "\u8499A60603"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "93", 
+      "truckLicense_no": "\u8499B70098"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "96", 
+      "truckLicense_no": "\u8499A57042"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "101", 
+      "truckLicense_no": "\u8499B71327"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "93", 
+      "truckLicense_no": "\u8499B66750"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "93", 
+      "truckLicense_no": "\u8499B67395"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "102", 
+      "truckLicense_no": "\u8499B65804"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "91", 
+      "truckLicense_no": "\u8499A57638"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "88", 
+      "truckLicense_no": "\u8499C26383"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "91", 
+      "truckLicense_no": "\u8499A41656"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "94", 
+      "truckLicense_no": "\u8499B62021"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "97", 
+      "truckLicense_no": "\u8499B69633"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "99", 
+      "truckLicense_no": "\u8499A49841"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "100", 
+      "truckLicense_no": "\u8499A54806"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "94", 
+      "truckLicense_no": "\u8499K82202"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "99", 
+      "truckLicense_no": "\u8499B72855"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "90", 
+      "truckLicense_no": "\u8499K63683"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "95", 
+      "truckLicense_no": "\u8499A52645"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "95", 
+      "truckLicense_no": "\u8499A60603"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "95", 
+      "truckLicense_no": "\u8499B70098"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "95", 
+      "truckLicense_no": "\u8499A57042"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "99", 
+      "truckLicense_no": "\u8499B71327"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "94", 
+      "truckLicense_no": "\u8499B66750"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "95", 
+      "truckLicense_no": "\u8499B67395"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "99", 
+      "truckLicense_no": "\u8499B65804"
+    }, 
+    {
+      "arrive_add": "\u6d25\u897f\u4e07\u901a", 
+      "depart_add": "\u661f\u5149\u96c6\u56e2", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "40", 
+      "truckLicense_no": "\u6d25AR7898"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "89", 
+      "truckLicense_no": "\u8499A41656"
+    }, 
+    {
+      "arrive_add": "\u77f3\u5634\u5c71\u4e00\u7535", 
+      "depart_add": "\u795e\u534e400\u4e07\u5428", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "89", 
+      "truckLicense_no": "\u8499C26383"
+    }, 
+    {
+      "arrive_add": "\u6d25\u897f\u4e07\u901a", 
+      "depart_add": "\u661f\u5149\u96c6\u56e2", 
+      "fbf": "\u4ebf\u9633\u8499\u897f", 
+      "netweight": "40", 
+      "truckLicense_no": "\u6d25AR0216"
+    }
+  ]
+}
